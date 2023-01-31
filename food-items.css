@@ -1,0 +1,79 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+        margin: 5% auto;
+        height: fit-content;
+}
+.row2{
+        margin: 1% auto;
+}
+
+
+/* Footer Section */
+
+/* Footer Part A */
+.footer-part-a{
+        border-top: 1px solid #00000038;
+    }
+    
+    /* End of Footer Part A */
+    
+    /* Footer part B */
+    .footer-part-b{
+        border-top: 1px solid #00000010;
+    }
+    .social-icon{
+        height: 37px;
+        width:  37px;
+        padding: 10px;
+    }
+    /* End of the footer Part B */
+    
+    
+    .link-dark{
+       text-decoration: none;
+    }
+    /* End of the Footer Section */
+    
+    
+
+
+    /* Navbar */
+    .container-fluid{
+        padding-top : 10px;
+        padding-bottom: 10px;
+    }
+    .navbar{
+        padding-left: 60px;
+        padding-right : 60px;
+    }
+    .nav-item{
+        font-size:large;
+        font-weight: 400;
+    }
+
+    /* Pricing Sections for each piece */
+    .piece-price{
+        font-size: 20px;
+    }
+
+
+
+    /* a tag */
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .row2-col, .row1-col{
+        margin-top: 10%;
+    }
+
+    @media screen and (max-width:1000px){
+        .container{
+            margin: 10% auto;
+            align-items: center;
+        }
+    }
